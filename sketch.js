@@ -33,7 +33,8 @@ function setup() {
 
 
 function draw() {
-            background(220);
+            background("lightblue");
+           
             //jump when the space button is pressed
             console.log(trex.y)
             if (keyDown("space") && trex.y > 154) {
